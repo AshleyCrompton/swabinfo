@@ -37,7 +37,7 @@ const healthCheck = (req, res, next) => {
   res.status(200).json({ status: 'success' });
 };
 
-router.route('/hello').get(healthCheck);
+router.route('/healthcheck').get(healthCheck);
 router.route('/getdata/:board/:month/:type').get(getData);
 
 module.exports = app;
