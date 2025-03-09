@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  swabinfo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - '/Users/ashleycrompton/VSCode Projects/swabinfo:/app/swabinfo'
+      - '/Users/ashleycrompton/VSCode Projects/files:/app/files'
+    working_dir: /app/swabinfo
+    restart: unless-stopped
