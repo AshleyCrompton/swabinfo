@@ -1,0 +1,24 @@
+{
+  "name": "swabinfo",
+  "version": "1.0.0",
+  "description": "API to get Allocate csv files and info about them",
+  "homepage": "https://github.com/AshleyCrompton/swabinfo#readme",
+  "bugs": {
+    "url": "https://github.com/AshleyCrompton/swabinfo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshleyCrompton/swabinfo.git"
+  },
+  "license": "ISC",
+  "author": "Ashley Crompton",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
