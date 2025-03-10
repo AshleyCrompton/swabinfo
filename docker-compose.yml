@@ -8,7 +8,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - '/Users/ashleycrompton/VSCode Projects/swabinfo:/app/swabinfo'
-      - '/Users/ashleycrompton/VSCode Projects/files:/app/files'
+      - '/home/ubuntu/swabinfo:/app/swabinfo'
+      - '/home/ubuntu/files:/app/files'
     working_dir: /app/swabinfo
     restart: unless-stopped
